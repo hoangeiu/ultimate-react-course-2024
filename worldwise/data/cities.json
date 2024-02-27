@@ -1,0 +1,172 @@
+{
+  "cities": [
+    {
+      "cityName": "Thu Dau Mot",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-24T15:18:08.008Z",
+      "notes": "Thu Dau Mot",
+      "position": {
+        "lat": "10.980796280011655",
+        "lng": "106.65394306182861"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Phan Thiet",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:04:19.484Z",
+      "notes": "Phan Thiet",
+      "position": {
+        "lat": "10.930067878493329",
+        "lng": "108.10409545898439"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Ho Chi Minh",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:05:01.483Z",
+      "notes": "Ho Chi Minh",
+      "position": {
+        "lat": "10.776276185967642",
+        "lng": "106.69464290142061"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Bien Hoa",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:05:21.473Z",
+      "notes": "Bien Hoa",
+      "position": {
+        "lat": "10.950735274132274",
+        "lng": "106.82221412658693"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Nha Trang",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:05:42.921Z",
+      "notes": "Nha Trang",
+      "position": {
+        "lat": "12.246998257286494",
+        "lng": "109.18908119201662"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Hoi An",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:05:56.971Z",
+      "notes": "Hoi An",
+      "position": {
+        "lat": "15.876809064146771",
+        "lng": "108.33240509033205"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Da Nang",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:06:06.376Z",
+      "notes": "Da Nang",
+      "position": {
+        "lat": "16.06824860205035",
+        "lng": "108.21155548095705"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Hue",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:07:22.756Z",
+      "notes": "Hue",
+      "position": {
+        "lat": "16.464073079315227",
+        "lng": "107.5913429260254"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Phong Nha",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:07:44.395Z",
+      "notes": "Phong Nha",
+      "position": {
+        "lat": "17.60631148930464",
+        "lng": "106.30216598510742"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Ða Lat",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:08:29.861Z",
+      "notes": "Ða Lat",
+      "position": {
+        "lat": "11.926477793848226",
+        "lng": "108.46801757812501"
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Mũi Né",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:08:54.246Z",
+      "notes": "Mũi Né",
+      "position": {
+        "lat": "11.579261157386489",
+        "lng": "109.12552356719972"
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Vung Tau",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:10:39.873Z",
+      "notes": "Vung Tau",
+      "position": {
+        "lat": "10.348272711773614",
+        "lng": "107.07627296447755"
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Qui Nhon",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T08:11:56.481Z",
+      "notes": "Qui Nhon",
+      "position": {
+        "lat": "13.768814518980879",
+        "lng": "109.2305374145508"
+      },
+      "id": 98443212
+    },
+    {
+      "cityName": "Quang Tri",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-02-25T09:00:11.834Z",
+      "notes": "Thành cổ Quảng Trị",
+      "position": {
+        "lat": "16.753735507443544",
+        "lng": "107.18948364257814"
+      },
+      "id": 98443213
+    }
+  ]
+}
