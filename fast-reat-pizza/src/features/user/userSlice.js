@@ -27,7 +27,7 @@ export const fetchAddress = createAsyncThunk(
   }
 );
 
-const initialState = {
+/*const initialState = {
   username: '',
   status: 'idle',
   position: {},
@@ -63,3 +63,27 @@ const userSlice = createSlice({
 export const { updateName } = userSlice.actions;
 
 export default userSlice.reducer;
+*/
+
+const initialState = {
+  username: '',
+};
+
+const userSlice = createSlice({
+  name: 'user',
+  initialState,
+  reducers: {
+    updateName(state, action) {
+      state.username = action.payload;
+    },
+  },
+});
+
+export const { updateName } = userSlice.actions;
+
+export default userSlice.reducer;
+
+// For big app use 'reselect' to optimise performance
+export const getUser = (state) => state.user;
+
+export const getUserName = (state) => state.user.username;
