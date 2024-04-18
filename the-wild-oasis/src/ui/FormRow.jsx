@@ -3,8 +3,12 @@ import styled from "styled-components";
 const StyledFormRow = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: 24rem 1fr 1.2fr;
-  gap: 2.4rem;
+  /* grid-template-columns: 24rem 1fr 1.2fr; */
+  grid-template-columns: 24rem 1fr;
+  grid-template-rows: 1fr 0.5rem;
+  /* gap: 2.4rem; */
+  column-gap: 2.4rem;
+  row-gap: 1rem;
 
   padding: 1.2rem 0;
 
@@ -41,7 +45,12 @@ export default function FormRow({ label, error, children }) {
     <StyledFormRow>
       {label && <Label htmlFor={children.props.id}>{label}</Label>}
       {children}
-      {error && <Error>{error}</Error>}
+      {error && (
+        <>
+          <div></div>
+          <Error>{error}</Error>
+        </>
+      )}
     </StyledFormRow>
   );
 }
