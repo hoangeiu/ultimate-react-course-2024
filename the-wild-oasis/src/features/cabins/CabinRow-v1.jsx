@@ -49,7 +49,7 @@ export default function CabinRow({ cabin }) {
 
   const { isDeleting, deleteCabin } = useDeleteCabin();
 
-  const { createCabin } = useCreateCabin();
+  const { isCreating, createCabin } = useCreateCabin();
 
   function handleDuplicate() {
     createCabin({
@@ -74,27 +74,27 @@ export default function CabinRow({ cabin }) {
         <span>&mdash;</span>
       )}
       <div>
+        <button disabled={isCreating} onClick={handleDuplicate}>
+          <HiSquare2Stack />
+        </button>
+
         <Modal>
-          <Menus.Menu>
-            <Menus.Toggle id={cabinId} />
-            <Menus.List id={cabinId}>
-              <Menus.Button icon={<HiSquare2Stack />} onClick={handleDuplicate}>
-                Duplicate
-              </Menus.Button>
-
-              <Modal.Open openWindowName="update-cabin">
-                <Menus.Button icon={<HiPencil />}>Edit</Menus.Button>
-              </Modal.Open>
-              <Modal.Open openWindowName="delete-cabin">
-                <Menus.Button icon={<HiTrash />}>Delete</Menus.Button>
-              </Modal.Open>
-            </Menus.List>
-          </Menus.Menu>
-
+          <Modal.Open openWindowName="update-cabin">
+            <button>
+              <HiPencil />
+            </button>
+          </Modal.Open>
           <Modal.Window name="update-cabin">
             <CreateCabinForm cabinToEdit={cabin} />
           </Modal.Window>
+        </Modal>
 
+        <Modal>
+          <Modal.Open openWindowName="delete-cabin">
+            <button>
+              <HiTrash />
+            </button>
+          </Modal.Open>
           <Modal.Window name="delete-cabin">
             <ConfirmDelete
               resourceName="cabin"
