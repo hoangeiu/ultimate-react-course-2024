@@ -5,6 +5,7 @@ import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";
 import { useSearchParams } from "react-router-dom";
 import { useMemo } from "react";
+import Empty from "../../ui/Empty";
 
 export default function CabinTable() {
   const { isLoading, cabins } = useCabins();
@@ -36,6 +37,7 @@ export default function CabinTable() {
   }, [filterValue, cabins, sortBy]);
 
   if (isLoading) return <Spinner />;
+  if (!cabins.length) return <Empty resourceName="cabins" />;
 
   return (
     <Menus>
